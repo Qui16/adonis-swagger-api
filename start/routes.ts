@@ -29,3 +29,4 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
+//Route.get('/users', 'UsersController.view').as("users_view");
